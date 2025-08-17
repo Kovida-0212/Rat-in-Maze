@@ -39,9 +39,39 @@ The agents work for A.P. Securitas Pvt. Ltd. and are assigned missions in enviro
   ```
     Enter the size of the maze: 4
     Enter the maze elements (0 for obstacles, any number for open paths):
-    3 6 0 3
-    0 0 0 6
-    3 0 0 9
-    6 3 3 3
+    3 3 3 3
+    6 6 6 6
+    3 3 3 9
+    3 3 3 3
   ```
 ## Output
+  ```
+    Solution:
+    Secure Insecure Insecure Insecure
+    Secure Insecure Insecure Insecure
+    Secure Insecure Insecure Insecure
+    Secure Secure Secure Secure
+
+    Binary Codes:
+    001 000 000 000
+    001 000 000 000
+    001 000 000 000
+    001 001 001 001
+
+    Traces of the Agent's Path from Destination:
+
+    Agent's Traveled Path:
+    (0, 0) (1, 0) (2, 0) (3, 0) (3, 1) (3, 2) (3, 3)
+
+    Agent's Path Symbol Codes:
+
+    X X X
+    X X X
+    X X X
+    # #
+    Visited Cells:
+    V . . .
+    V . . .
+    V . . .
+    V V V V
+```
